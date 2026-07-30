@@ -1,6 +1,6 @@
 # Hi, I'm Saanvi 👋
 
-I build backend systems and machine learning projects spanning software engineering, healthcare, and environmental economics — from a multi-service RAG backend to a hand-written compiler frontend to predictive models for medical and sensor data.
+I build backend systems and machine learning projects spanning software engineering, healthcare, and environmental economics — from a multi-service auth/security backend to a hand-written compiler frontend to predictive models for medical and sensor data.
 
 ## 🔧 What I work with
 
@@ -11,7 +11,7 @@ I build backend systems and machine learning projects spanning software engineer
 
 ## 📌 Featured Projects
 
-- **[Privacy Copilot](https://github.com/SaanviMittalSM/privacy-copilot)** — a 4-microservice backend (FastAPI) that detects PII/privacy risk in uploaded documents and answers questions about them via RAG: RS256 JWT auth, Presidio-based PII detection, Qdrant-backed retrieval, 120 tests, Docker Compose, CI.
+- **[Secure Docs Platform](https://github.com/SaanviMittalSM/secure-docs-platform)** — a 4-microservice backend (FastAPI) with RS256 JWT auth, per-service databases, and a background ingestion pipeline; also detects PII/privacy risk in uploaded documents (Presidio) and answers questions about them via Qdrant-backed RAG. 120 tests, Docker Compose, CI.
 - **[MiniLang Compiler Frontend](https://github.com/SaanviMittalSM/minilang-compiler)** — a hand-written lexer and table-driven recursive-descent parser (C) for a small Pascal-like language, with FIRST/FOLLOW set computation and syntax error recovery — no Lex/Yacc.
 - **[Structural Health Monitoring Using ML](https://github.com/SaanviMittalSM/Structural-Health-Monitoring-Using-ML)** — linear regression models that recover strain and temperature from Fiber Bragg Grating (FBG) sensor data.
 - **[Breast Cancer Classification](https://github.com/SaanviMittalSM/Breast-Cancer-Analysis)** — comparing Logistic Regression, Random Forest, and SVM classifiers on the Wisconsin Breast Cancer dataset, with hyperparameter tuning and model evaluation.
